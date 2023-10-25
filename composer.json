@@ -1,0 +1,19 @@
+{
+    "name": "caoyuming-git/demo",
+    "description": "测试composer",
+    "type": "project",
+    "require": {
+        "ext-redis": "^5.3"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "CaoyumingGit\\Demo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "caoyuming"
+        }
+    ]
+}
